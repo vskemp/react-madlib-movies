@@ -4,10 +4,10 @@ import Box from './Box';
 function Movies({title}) {
     const movieTitle = `${title}`
     return (
-        <div>
+        <ul>
             <Box text={movieTitle} />
-        </div>
+        </ul>
     );
 }
 
-export default Movies
+export default Movies;
